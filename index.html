@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1; index1.html" /> -->
+    <title>Home | Tracking, shipping and exports</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles">
+    <link rel="stylesheet" href="/index.js">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="google.css">
+    <script src="https://unpkg.com/@botpoison/browser" async></script>
+</head>
+<body>
+    <!--nav-bar-->
+    <div class="bg1st shadow sticky-top">
+        <nav class="navbar container d-flex align-item-center order-list  navbar-expand-lg p-2">
+          <a href="/" class="navbar-brand me-auto">
+            <div class="logo"><img src="img/logo.png" height="30" width="100" alt=""></div>
+          </a>
+          <button type="button" class="btn svg1 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" >
+            <svg width="25" height="25">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="2"></path>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="2"></path>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="2"></path>
+            </svg>
+          </button>  
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a  href="/signup" style="text-decoration: none;color: white; font-weight: 400; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;float:right;" type="button">Sign Up or Log in <i class="fas fa-person-booth    "></i></a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+
+    <!-- tracking bg -->
+    <div class="trackbg">
+        <h1 class="mt-5 h1a">Ship, Manage, Track, Deliver</h1>
+        <div class="box mx-auto boxbg mt-5">
+            <div class="row">
+                <div class="col-4 box1">
+                    <i class="fa fa-calculator"  aria-hidden="true"></i>
+                    <p class="boxd">RATE & SHIP</p>
+                </div>
+                <div class="col-4 box2 shadow">
+                    <i class="fa fa-shopping-basket"  aria-hidden="true"></i>
+                    <p class="boxd">RATE & SHIP</p>
+                </div>
+                <div class="col-4 box3">
+                    <i class="fa fa-location-arrow"  aria-hidden="true"></i>
+                    <p class="boxd">LOCATIONS</p>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto form mt-5">
+            <div id="error"></div>
+            <form id="form" action="/index2.html">
+                
+            
+                <div class="row">
+                    <div class="col-md mt-1">
+                        <div class="col-12">
+                            <input type="text" id="track" class="form-control form1" placeholder="TRACKING ID" name="track">
+                        </div>
+                    </div>
+                    <div class="col-md mt-1">
+                        <div class="col-12">
+                            <input type="submit" class="trackbtn shadow" value="TRACK" >
+                        </div>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        
+    </div>
+ 
+  <script src="https://unpkg.com/@botpoison/browser" async></script>
+<script src="index.js"></script>
+<script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

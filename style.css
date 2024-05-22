@@ -1,0 +1,121 @@
+.bg1st{
+    background-color: rgb(77,20,140);
+}
+
+.trackbg{
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/fedexbg.jpg');
+  height: 90vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+  padding: 20px;
+}
+
+
+
+
+
+@media  (max-width:700px){
+    
+    .h1a{
+        text-align: center;font-size: 30px;font-weight: 200;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .boxbg{
+        background-color: white;
+        color: black;
+        padding: 5px;
+    }
+    .boxd{
+        text-align: center;
+        font-size: large;
+        font-weight: 600;
+    }
+    .form{
+        width: 100%;
+    }
+    .form1{
+        padding: 12px;
+        width: 100%;
+    }
+    .trackbtn{
+        background-color: rgb(255,98,0);
+        color: white;
+        border: none;
+        padding: 12px;
+        font-weight: 700;
+        font-size: large;
+        width: 100%;
+        border-radius: 4px;
+
+    }
+    .box2{
+        background-color: rgb(77,20,140) ;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
+    
+    .box3{
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
+    .box1{
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+        height: 100px;
+    }
+}
+
+@media  (min-width:700px){
+    .h1a{
+        text-align: center;font-size: 64px;font-weight: 100;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .boxbg{
+        background-color: white;
+        width: 500px;
+        color: black;
+        padding: 5px;
+    }
+    .boxd{
+        text-align: center;
+        font-size: large;
+        font-weight: 600;
+    }
+    .form{
+        width: 600px;
+    }
+    .form1{
+        padding: 15px;
+        width: 430px;
+    }
+    .trackbtn{
+        background-color: rgb(255,98,0);
+        color: white;
+        border: none;
+        padding: 15px;
+        font-weight: 700;
+        font-size: large;
+    }
+    .box2{
+        background-color: rgb(77,20,140) ;
+        padding: 20px;
+        text-align: center;
+        font-size: large;
+        color: white;
+    }
+    
+    .box3{
+        padding: 20px;
+        text-align: center;
+        font-size: large;
+    }
+    .box1{
+        padding: 20px;
+        text-align: center;
+        font-size: large;
+    }
+}
