@@ -17,6 +17,9 @@ background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/fed
 
 
 @media  (max-width:700px){
+    .last{
+        background-color: rgb(77,20,140);
+    }
     
     .h1a{
         text-align: center;font-size: 30px;font-weight: 200;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -118,4 +121,5 @@ background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/fed
         text-align: center;
         font-size: large;
     }
+    
 }
